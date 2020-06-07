@@ -1,0 +1,16 @@
+{
+    "emr_config": {
+        "cluster-name": "emr-at-abhishek-vpc",
+        "emr-version": "emr-5.12.0",
+        "instance-count": 3,
+        "job-role": "EMR_EC2_DefaultRole",
+        "keep-job-alive": "False",
+        "master-instance-type": "m4.xlarge",
+        "region": "eu-central-1",
+        "service-role": "EMR_DefaultRole",
+        "slave-instance-type": "m4.xlarge",
+        "termination-protected": "False",
+        "vpc-ec2-key": "abhishek-vpc",
+        "vpc-subnet-id": "subnet-035a10658fcfd9e29"
+    }
+}
